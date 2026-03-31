@@ -1,3 +1,4 @@
+/* Seu código original */
 .skeleton-overlay {
     position: fixed !important;
     top: 20px !important;
@@ -9,14 +10,15 @@
 }
 
 .skeleton-img {
-    width: 200px !important;
+    width: 350px !important; /* Aumentamos o tamanho aqui */
     height: auto !important;
     display: block !important;
     border: none !important;
     background: transparent !important;
-    filter: drop-shadow(0 0 15px rgba(0,0,0,0.6));
+    filter: drop-shadow(0 0 20px rgba(0,0,0,0.7)); /* Sombra um pouco mais forte */
 }
 
+/* Animação de entrada que você criou */
 @keyframes skeletonFadeIn {
     from { 
         opacity: 0; 
