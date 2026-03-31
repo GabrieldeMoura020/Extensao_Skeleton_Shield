@@ -1,11 +1,12 @@
 {
   "manifest_version": 3,
   "name": "Skeleton Shield",
-  "version": "1.0",
-  "description": "Proteção lendária contra notificações 💀🛡️",
+  "version": "1.1",
+  "description": "Proteção lendária 💀🛡️",
+  "permissions": ["scripting", "activeTab", "notifications"],
   "web_accessible_resources": [
     {
-      "resources": ["skeleton.gif"],
+      "resources": ["skeleton.gif", "interceptor.js"],
       "matches": ["<all_urls>"]
     }
   ],
@@ -16,10 +17,5 @@
       "css": ["style.css"],
       "run_at": "document_start"
     }
-  ],
-  "permissions": [
-    "scripting",
-    "activeTab",
-    "notifications"
   ]
 }
